@@ -11,7 +11,7 @@ proxies:
   - {name: 🇸🇬 sg, server: sz.cm.xf.gay, port: 38101, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: s, server: sz.cm.xf.gay, port: 31112, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: cg, server: 117.174.25.60, port: 51115, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: g2, server: zf.hk02.xf.gay, port: 10001, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: g2, server: zf.hk01.xf.gay, port: 31112, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: hc, server: 129.154.60.145, port: 41113, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: h1c, server: zf.hk01.xf.gay, port: 41115, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
@@ -47113,6 +47113,7 @@ rules:
  - DOMAIN-SUFFIX,hitv.com,🎯 全球直连
  - DOMAIN-SUFFIX,hunantv.com,🎯 全球直连
  - DOMAIN-SUFFIX,mgtv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xffs.cc,🎯 全球直连
  - DOMAIN-SUFFIX,duokan.com,🎯 全球直连
  - DOMAIN-SUFFIX,mi-img.com,🎯 全球直连
  - DOMAIN-SUFFIX,mi.com,🎯 全球直连
