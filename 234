@@ -66,8 +66,8 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: g2
-    server: zf.hk02.xf.gay
-    port: 10001
+    server: zf.hk01.xf.gay
+    port: 31112
     type: vmess
     uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd
     alterId: 0
