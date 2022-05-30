@@ -14,6 +14,7 @@ proxies:
   - {name: g2, server: zf.hk01.xf.gay, port: 31112, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: hc, server: 129.154.60.145, port: 41113, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: h1c, server: zf.hk01.xf.gay, port: 41115, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: jc, server: zf.jp01.xf.gay, port: 41116, type: vmess, uuid: cdf42ccb-7ed8-44b7-e6bd-eed5574c3dbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -41,6 +42,7 @@ proxy-groups:
       - g2
       - hc
       - h1c
+      - jc
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -56,6 +58,7 @@ proxy-groups:
       - g2
       - hc
       - h1c
+      - jc
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -71,6 +74,7 @@ proxy-groups:
       - g2
       - hc
       - h1c
+      - jc
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -87,6 +91,7 @@ proxy-groups:
       - g2
       - hc
       - h1c
+      - jc
   - name: 📲 电报消息
     type: select
     proxies:
